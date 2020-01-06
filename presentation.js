@@ -1,70 +1,73 @@
-// VAR, LET, CONST
-// global and function scope
-// var tester = "hey hi";
+// strings, numbers and booleans are immutable
+// var name = 'Bill';
+// var full_name = name.concat(' Gates');
+// console.log(name);
+// console.log(full_name);
 
-//     function newFunction() {
-//         var hello = "hello";
-//     }
-//     console.log(hello); // error: hello is not defined
-//     console.log(tester); // "hey hi"
 
-// problem with var (global scope)
-// var greeter = "hey hi";
-// var times = 4;
+// mutable
+// var arr = [1];
+// var new_arr = arr;
+// new_arr.push(2);
+// console.log(arr);
+// console.log(new_arr);
 
-// if (times > 3) {
-//     var greeter = "say Hello instead"; 
-//     console.log(greeter); // "say Hello instead"
+// immutable
+// let a = ['foo', 'bar'];
+// let b = a;
+// a.push('baz')
+// console.log(b); // ['foo', 'bar', 'baz']
+// console.log(a === b) // true
+
+// mutable
+// let a = 1;
+// let b = a;
+// a++;
+// console.log(a) //2
+// console.log(b) //1
+// console.log(a === b) //false
+
+// object.freeze
+// const obj = {
+//     prop: 42
+//   };
+//   Object.freeze(obj);
+//   obj.prop = 33;
+//   // Throws an error in strict mode
+//   console.log(obj.prop);
+//   // expected output: 42  
+
+// for/in
+// var person = {fname:"John", lname:"Doe", age:25};
+// var text = "";
+// var x;
+// for (x in person) {
+//     console.log(x)
 // }
 
-// console.log(greeter) //"say Hello instead"
-
-// why let is preferred over var (block scoped)
-// let times = 4;
-// let scope ='global'
-// if (times > 3) {
-//      let scope = "block";
-//      console.log(scope);//"block"
-//  }
-// console.log(scope) // "global"
-
-// re-declaration of variables having same scope not allowed(var and let)
-// let greeting = "say Hi";
-// let greeting = "say Hello instead";//error: Identifier 'greeting' has already been declared
-
-// const cannot be updated or re-declared
-// const greeting = "say Hi";
-// greeting = "say Hello instead";//error : Assignment to constant variable.  
-// const greeting = "say Hi";
-// const greeting = "say Hello instead";//error : Identifier 'greeting' has already been declared
-
-
-// HOISTING
-// hoisting using var does not show error (is initialized)
-// console.log (greeter); //undefined
-// var greeter;
-
-// hoisting using let does shows reference error (is not initialized)
-// console.log (greeter); //undefined
-// let greeter;
-
-// hoisting of functions
-// console.log(Sum(5, 5)); // 10
-// function Sum(val1, val2)
-// {
-//     return val1 + val2;
+// for/of
+// var cars = ['BMW', 'Volvo', 'Mini'];
+// for (let x of cars) {
+//   console.log(x);
 // }
-// functions are hoisted before variables
 
+// for loop
+// var cars = ["BMW", "Volvo", "Saab", "Ford"];
+// var text = "";
+// for (let i = 0; i < cars.length; i++) {
+//   console.log(cars[i]);
+// }
 
-// STRICT MODE
-// no error although not declared already (c# and java shows error but not in js)
-// mystring = "without strict mode" // global scoped
-// console.log(mystring);
+// traditional function
+// console.log(square(4));
+// function square(number) {
+//     return number * number;
+//   }
+// console.log(square(3));
 
-// shows error
-// "use strict";
-// mystring = "strict mode" // global scoped
-// console.log(mystring);
+// arrow function
+// let square = (number) => {
+//     return number * number;
+// }
 
-// deleting variables, function, duplicating parameter name, the word arguments cannot be declared as variable, deleting an undeletable property is not allowed
+// console.log(square(3));
