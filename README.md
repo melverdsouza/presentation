@@ -63,3 +63,5 @@ s. git stash save - temporarily sores all modified tracked files.
 5. Database
 database is an organised collection of data stored electronically in the form of a table, it is usually controlled by a DBMS. The data and DBMS along with the application are associated with them.
 
+6. SQL Database
+it is the standard language for inserting, seraching, updating and deleting records. It is a relational DBMS 
