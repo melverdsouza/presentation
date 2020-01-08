@@ -14,5 +14,15 @@ i. rmdir - is used to remvoe the directory
 j. tail - reads a file and outputs the last part of it
 k. find - used to quickly lookup files or directory 
 
-
+2. 10 popular network commands
+a. ipconfig - gives the info on ip address, routers ipaddress, dns server ip address, etc
+b.ping - sends a signal to another device to see if its active this is to check if the router is down
+c. tracert - lets you see step by step route a packet takes to the destination like google.com
+d. nslookup - fetch dns records for domain name or ip address 
+e. arp - protocol for view and manage cache
+f. netstat - is used to get the network statistics,
+g. route - used to manage the routing table
+h. pathping - provides info about network latency and network loss at intermediate hops or routes
+i telnet - allows user to remotely access another computer such as a server or computer
+j. ftp - is file transfer protocol
 
