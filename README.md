@@ -39,3 +39,23 @@ i. rmdir - is used to remvoe the directory
 j. tail - reads a file and outputs the last part of it
 k. find - used to quickly lookup files or directory
 
+4. 10 popular git commands
+a. git config - command sets the author name and email address respectively to be used with commits
+b. git init - is used to start a new repo
+c. git clone - is used to obtain a repo from an existing URL
+d. git add - adds a file to the staging area
+e. git commit - is used to record or take a snapshot of the file permanently in the version history
+f. git diff - shows the file differences which are not yet staged git diff -staged shows the difference bet file in staging area and latest version
+g. git reset [file] - unstages the file but it preserves the file contents git reset [commit] undoes all commits after specified commit and preserves the changes locally
+h. git status - lists all the files that have not been commited
+i. git rm [file] - deletes the file from working directory and stages the deletion
+j. git log - command is used to list the version history for the current branch
+k. git show [commit] - shows the metadata and content changes of the specified commit
+l. git tag[commitID] - used to give tags to the specified commit
+m. git branch - this command lists all the local branches in the current rep git branch -d deletes the feature branch
+n. git checkout [branch name] - used to switch from one branch to another
+o. git merge [branch name] - merges the specified branch's history into the current branch
+p. git remote add [variable name] [remote server link]- used to connect local repo to the remote server
+q. git push [variable name] master - sends the committed changes of master branch to remote repo
+r. git pull - fetches and merges changes on the remote server to working directory
+s. git stash save - temporarily sores all modified tracked files.
