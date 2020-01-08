@@ -65,3 +65,34 @@ database is an organised collection of data stored electronically in the form of
 
 6. SQL Database
 it is the standard language for inserting, seraching, updating and deleting records. It is a relational DBMS 
+
+7. NoSQL Database
+is an alternative to traditional relational database, this is used for working with large sets of distributed data. implements a simple model that pairs unique key with associated values. wide columns stores data tables as columns instead of rows, this can query large data volumes faster
+
+8. 10 popular databases
+a. oracle
+b.mysql
+c. microsoft sql server
+d. postgreSQL
+e. mongodb
+f. db2
+g.microsoft access
+h.cassandra
+i.redis
+j.elasticsearch
+
+9. ACID
+is a set of properties that guarantee database transactions being processed reliably, it mainly concerns how database recovers from any failure that occurs while processing a transaction. Atomicity is guarantee that either all the transactions succeed or none of it does. Consistency is guarantee that all data will be consistent. Isolation is no transaction will be affected by any other transaction and Durability is when one transaction is committed it will remain in the system even if theres a crash following the transaction
+
+10. Aggregation
+is when information is gathered and summarized for statistical analysis. it is to get more info on a specific variable 
+
+11. Joins
+join combines columns from one or more tables in relational database.
+
+12. CAP theorem
+Consistency states that all nodes see the same data at the same time. a read operation will return the value of the most recent write operation causing all nodes to return the same data. in this model any inconsistency the entire transaction gets rolled back if there is an error. 
+Availability states that every request gets a response on success/failure. The system is operational 100% of the time.the client gets a response regardless of the state of a node in the system.
+Partial tolerance states that the system continues to run, despite the number of messages being delayed by the network between nodes. it can sustain any amount of network failure that doesnt result in a failure of the entire network.
+the rule of CAP theorem is that it can have only 2 of the 3 concepts.
+
