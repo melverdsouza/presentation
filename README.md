@@ -26,3 +26,16 @@ h. pathping - provides info about network latency and network loss at intermedia
 i telnet - allows user to remotely access another computer such as a server or computer
 j. ftp - is file transfer protocol
 
+3. 10 popular OS commands
+a. cipher - used to encrypt or decrypt data on ntfs drives, also data is securly deleted by overwriting it
+b. fc - is file compare where files are compared to see if there are any content or binary code differences
+c. tasklist - gives a list of processes running on the system from the command prompt
+d. taskkill - is like the traditional way of killing processes using task manager
+e. sfc - is an automatic scan and repair tool, if corrupt files are found, theyll be replaced using cached copies kept by windows
+f. driverquery - improperly configured or missing drivers cause trouble so access to a list of whats on pc is given
+g. mkdir - is used to make a new empty directory in the current active path
+h. rm - is used to remove files -rf is added to remove a directory
+i. rmdir - is used to remvoe the directory
+j. tail - reads a file and outputs the last part of it
+k. find - used to quickly lookup files or directory
+
