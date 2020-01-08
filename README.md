@@ -59,3 +59,7 @@ p. git remote add [variable name] [remote server link]- used to connect local re
 q. git push [variable name] master - sends the committed changes of master branch to remote repo
 r. git pull - fetches and merges changes on the remote server to working directory
 s. git stash save - temporarily sores all modified tracked files.
+
+5. Database
+database is an organised collection of data stored electronically in the form of a table, it is usually controlled by a DBMS. The data and DBMS along with the application are associated with them.
+
