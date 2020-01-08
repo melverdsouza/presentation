@@ -96,3 +96,8 @@ Availability states that every request gets a response on success/failure. The s
 Partial tolerance states that the system continues to run, despite the number of messages being delayed by the network between nodes. it can sustain any amount of network failure that doesnt result in a failure of the entire network.
 the rule of CAP theorem is that it can have only 2 of the 3 concepts.
 
+13. Normalization
+is the process of structuring a non structured data into a relational database in accordance with a series of mormal forms in order to reduce data redundancyand improve data integrity
+
+14. Database sharding
+when a database is separated into smaller, faster and more easily managed parts.
