@@ -101,3 +101,13 @@ is the process of structuring a non structured data into a relational database i
 
 14. Database sharding
 when a database is separated into smaller, faster and more easily managed parts.
+
+15. Network layers
+there are 7 layers in the OSI model which are:
+    7. application: supports application and end user processes
+    6. Presentation: transforms the data into the form that the application layer can accept
+    5. Session: manages and terminates the connection between applications
+    4. Transport: provides transparent transfer of data between end systems
+    3. Network: provides switching and routing technologies, for transmitting data from node to node.
+    2. Data link: manages and handles errors in the physical layer, flow contol and frame synchronization
+    1. Physical: conveys bit stream through the network at the electrical and mechanical level.
