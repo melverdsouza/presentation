@@ -153,3 +153,25 @@ is used to distribute space between or around the items, the properties can also
 
 27. grid
 the css grid layout offers a grid based layout system, with rows and columns making it easier to design web pages without having to use floats and positioning
+
+28. git 
+git helps in managing projects or set of files as they change over time as it stores information in a data structure called a repo
+
+29. HTTP
+it is the underlying protocol used by www, it defines how messages are formatted and transmitted and what actions web servers and browsers should take in response to various commands.
+
+30. TCP
+transmission control protocol defines how to establish and maintain network conversation through which application programs can exchange data. it works with the Internet protocol which defines how computers send packets of data to each other
+
+31. UDP
+it is a communication protocol used across the internet for time sensitive transmissions such as video playback or DNS lookups. it speeds communications by not requiring allowing data to be transferred before the receivingparty agrees to the communication, it allows the protocol to  operate quickly and also creates an opening for exploitation
+
+32. Web server
+a web server is a computer that stores web server software and a websites componentfiles, it is connected to the internet and supports physical data interchange with other devices connected to the web
+on the software sied a wev server includes several parts that control how web users access hosted files at minimum an HTTP server is a piece of software that understands URLs and HTTP, it can be accessed through the domain names of websites it stores and delivers their content to the end users device.
+
+33. Static server
+contains web pages with fixed content. the page is coded in html and displays the same info to every visitor. the content does not change unless it is manually updated vy the webmaster.
+
+34. Application server
+is a software framework that provides both facilities to create web application and a server environment to run them
