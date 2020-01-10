@@ -111,3 +111,45 @@ there are 7 layers in the OSI model which are:
     3. Network: provides switching and routing technologies, for transmitting data from node to node.
     2. Data link: manages and handles errors in the physical layer, flow contol and frame synchronization
     1. Physical: conveys bit stream through the network at the electrical and mechanical level.
+
+16. Request response protocol
+HTTP protocol is a request/response protocol where the client sends a request for some resource and the server responds by sending the resource or a status code 
+
+17. Web API
+API is a kind of an interface which has a set of functions that allow programmers to access specific features or data of an application, operation system or other services.
+
+18. REST
+is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other. in this architecture client sends requests to retrieve or modify resources, and servers send responses to these requests. 
+
+19. HTTP Status codes to handle
+200 - means that the request was processed successfully
+400 - is sent when data is not syntactically correct
+422 - is when input data is invalid that is data is syntactically correct but sematically incorrect
+401 - is when the user is not authenticated
+403 - is when the user is not authorized
+404 - is when no record is found
+500 - is when an error is encountered
+
+20.  HTML 
+is a markup language for creating a wepage. is usually viewed in a web browser, it can include links, pictures, and even sound and video
+
+21. Box model 
+all elements in HTML are considered to be boxes.  box model is a box that wraps around every HTML element. this is used to create the design and layout of web pages. it can be fustomized
+
+22. Margin
+is a property used to create space around elements outside of any defined borders, for setting margins for each side top, right , bottom and left can be used
+
+23. Padding
+is the innermost portion of the box model for creating space around an elements content, it does not accept negative values
+
+24. CSS selectors
+are used to select the content to style, these slectors can be of different types like elements, id, class, universal and group
+
+25. CSS specificity
+if there are two or more conflicting css rules the browser follows some rules to determine which one is most specific and therefore wins out. SPecificity of an element is 1, for an ID it is 100 and for id it is 1000
+
+26. flexbox 
+is used to distribute space between or around the items, the properties can also let us mention the direction the container wants to stack the flex items
+
+27. grid
+the css grid layout offers a grid based layout system, with rows and columns making it easier to design web pages without having to use floats and positioning
