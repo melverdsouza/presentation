@@ -175,3 +175,44 @@ contains web pages with fixed content. the page is coded in html and displays th
 
 34. Application server
 is a software framework that provides both facilities to create web application and a server environment to run them
+
+35. DNS server
+is a server that contains all public IP addresses and the hostnames they resolve those names to IP address as requested.
+
+36. Database server
+is the term used to refer to the backend systems of a database application using client/server architecture. the backend is usually called a database serverwhich performs a specific task
+
+37. Standalone application
+are traditional softwares that are installed on each client system, web based applications are installed only once whereas desktop applications are installed separately on each computer
+
+38. MVC
+is model view controller, it is an application design model, model represents the shape of the data and business logic,maintains the data of the application
+view is a user interface, it displays data using model to the user and enables to modify the data
+controller handles the user request, it renders the appropriate URL request, the request is handled by a controller
+ 
+ 39. Operating system
+ is a system software that manages hardware, software resources, and provides common services for computer programs. the OS manages a computers hardware resource, including input devices such as keyboard and mouse
+
+ 40. Kernal
+ it is the central part of an operating system, it manages the operations of the computer and the hardware most notably memory and CPU time, it handles the rest of startup as well as input/ output requests from software, it handles memory and peripherals like keyboards, monitors, printers and speaker
+
+ 41. Process
+is the instance a computer program that is being executed by one or many threads(it is a flow of execution through the process code, which keeps a track of instructions to execute next) executing instructions concurrently
+
+42. Thread
+is a single sequence stream within a process, they allow multiple executions of streams 
+
+43. SOLID
+are design principles when doing OOP
+a. Single Responsibility Principle - every module should have a responsibility over only a single part of the functionality
+b. Open/closed principle - software entities should be open for extensions but closed for modifications
+c. Liskov Substitution Principle - functions use pointers to base classes must be able to use objects of derived classes without knowing it
+d. Interface Segregation Principle - client should not be forced to depend on methods it does not use.
+e. Dependency inversion principle - high level modules should not depend on low level modules they should depend on abstractions, abstractions should not depend on details, details should depend on abstractions.
+44. Apache web server
+is an open source and free web server software, it allows website owners to serve content on the web 
+
+45. Nginx web server
+is an open source HTTP web server and reserve proxy server it is the third most popular web server after apache and microsofts IIS, it powers pinterest, netflix, hulu
+
+46. 
